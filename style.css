@@ -1,0 +1,32 @@
+
+body {
+    padding: 0;
+    background-color: rgb(209, 204, 156);
+
+}
+p{
+    font-size: 30px;
+
+}
+.my-boj {
+   width: 400px;
+    height: 300px;  
+    background-color: rgb(194, 204, 50);
+}
+.menu{
+    list-style:none ;
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(177, 137, 84);
+}
+
+.menu-item {
+    color: bisque;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+     color: rgb(255, 153, 0);
+     background-color: rgb(177, 137, 84);
+}
