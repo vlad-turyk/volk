@@ -1,0 +1,29 @@
+.gallery {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin:0 auto;
+    background-color: rgb(72, 202, 185);
+}
+
+.controls{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.controls button {
+     height: 50px;
+     width : 50px;
+     border-radius: 50%;
+     cursor: pointer;
+     }
+
+     .first image {
+        margin-left: 0;
+     }
+ 
+    #left_button, 
+    #right_button {
+        background-color: aqua;
+    }
